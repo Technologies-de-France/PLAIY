@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="code" Type="Folder" URL="..">
+		<Item Name="source" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dépendances" Type="Dependencies">
@@ -65,6 +65,9 @@
 				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
 				<Item Name="NI_Math Plot Private Lib.lvlib" Type="Library" URL="/&lt;vilib&gt;/Math Plots/Plot Private Lib/NI_Math Plot Private Lib.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -107,41 +110,13 @@
 				<Item Name="Write Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="2DClassificationDisplay.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/2D/Trained/2DClassificationDisplay.vi"/>
-			<Item Name="2DData.ctl" Type="VI" URL="../../../PLAIYDISPLAY/Display/_Controls/2DData.ctl"/>
-			<Item Name="2DParameters.ctl" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/2D/Trained/Controls/2DParameters.ctl"/>
-			<Item Name="2DPredictedClassification.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/2D/Predicted/2DPredictedClassification.vi"/>
-			<Item Name="2DStyle.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/_SubVIs/2DStyle.vi"/>
-			<Item Name="3DClassificationDisplay.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/3D/Trained/3DClassificationDisplay.vi"/>
-			<Item Name="3DData.ctl" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/3D/_Controls/3DData.ctl"/>
-			<Item Name="3DDataTrain.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/3D/_SubVIs/3DDataTrain.vi"/>
-			<Item Name="3DParameters.ctl" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/3D/_Controls/3DParameters.ctl"/>
-			<Item Name="3DPredictedClassification.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/3D/Predicted/3DPredictedClassification.vi"/>
-			<Item Name="3DStyle.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/3D/_SubVIs/3DStyle.vi"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="CLASS - 2DSortData.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/2D/_SubVIs/CLASS - 2DSortData.vi"/>
-			<Item Name="CLASS - Display2DTest.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/2D/Trained/SubVIs/CLASS - Display2DTest.vi"/>
-			<Item Name="CLASS - Display2DTrain.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/2D/Trained/SubVIs/CLASS - Display2DTrain.vi"/>
-			<Item Name="CLASS - Generate2DTest.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/2D/Trained/SubVIs/CLASS - Generate2DTest.vi"/>
-			<Item Name="CLASS - Generate2DTrain.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/2D/Trained/SubVIs/CLASS - Generate2DTrain.vi"/>
-			<Item Name="Clean2DArray.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/_SubVIs/Clean2DArray.vi"/>
-			<Item Name="Clean3DArray.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/3D/_SubVIs/Clean3DArray.vi"/>
-			<Item Name="Datas.ctl" Type="VI" URL="../../../PLAIYDISPLAY/Display/_Controls/Datas.ctl"/>
-			<Item Name="Display3DTest.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/3D/_SubVIs/Display3DTest.vi"/>
-			<Item Name="Display3DTrain.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/3D/_SubVIs/Display3DTrain.vi"/>
-			<Item Name="Generate3DTest.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/3D/_SubVIs/Generate3DTest.vi"/>
-			<Item Name="Generate3DTrain.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/3D/_SubVIs/Generate3DTrain.vi"/>
-			<Item Name="GenerateMultiple3DPlot.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/3D/_SubVIs/GenerateMultiple3DPlot.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="PointPropertyMultipleLabel.ctl" Type="VI" URL="../../../PLAIYDISPLAY/Display/_Controls/PointPropertyMultipleLabel.ctl"/>
-			<Item Name="PredictedParameter.ctl" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/2D/Predicted/Controls/PredictedParameter.ctl"/>
-			<Item Name="Style.ctl" Type="VI" URL="../../../PLAIYDISPLAY/Display/_Controls/Style.ctl"/>
-			<Item Name="Visible3DArray.vi" Type="VI" URL="../../../PLAIYDISPLAY/Display/Classification/3D/_SubVIs/Visible3DArray.vi"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build"/>
 	</Item>

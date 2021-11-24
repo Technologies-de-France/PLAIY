@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 import sys
 from sklearn import datasets
-import numpy 
-from pylab import shape
+import numpy
 
 
 def biclusters(n_rows, n_cols, n_clusters, noise, minval, maxval, shuffle, random_state, returns):
@@ -35,7 +34,8 @@ def blobs(n_samples,  n_features, centers, cluster_std, centermin, centermax, sh
             centers = None
         if centers == [[]]:
             centers = None
-        size_centers = shape(centers)
+        #size_centers = shape(centers)
+        size_centers = numpy.shape(centers)
         if size_centers == (1,):
             centers = centers[0]
         if size_centers == (1, 1):
