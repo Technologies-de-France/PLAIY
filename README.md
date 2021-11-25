@@ -1,4 +1,7 @@
-<img src="./Image/logo_play.png" alt="logo" width="200"/>
+<img align="left" src="./Image/logo_plaiy.jpg" width="200"/>
+<img align="right" src="./Image/Logo-TDF-couleur-fondblanc-300x100.jpg" width="200"/>
+<br/><br/><br/><br/><br/><br/><br/>
+
 
 Let’s make machine learning easy with scikit-learn on LaVIEW.
 
@@ -7,7 +10,35 @@ It features various classification, regression and clustering algorithms includi
 
 ## Installation
 
-The library works with Labview 2020 and python 3.6. 
+Library works with Labview 2020 and python 3.6.  <br />
+To install it download plaiy-1.0.0.6.vip file and execute it. It will install LabVIEW package, Python 3.6 (X64) and all the package needed to run. <br />
 
-The gold of the download of the library, python as well as the modules used are installed.However, if an error occurs, check that the modules "scikit-learn", "scipy", "numpy", "pillow" and "sys" are installed. To do this, enter the command "pip list" in the command prompt. 
-If one or more modules are not installed enter the command "pip install module_name" in the command prompt (windows + cmd enter).
+If you want to use the sources you have to install python 3.6 and all the packages  <br />
+
+https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe  <br />
+https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe
+
+Caution, if you use LabVIEW 32 check Python32 installed, if you use LabVIEW 64 check Python64 installed.
+You can check on the windows command prompt (search then tape cmd and enter).
+
+<img src="./Image/cmd1.PNG" width="300"/>
+
+Then verify if modules "scikit-learn", "scipy", "numpy", "pillow" and "sys" are installed. 
+To do this, enter the command "pip list" in the command prompt. 
+
+<img src="./Image/cmd2.PNG" width="300"/>
+
+If one or more modules are not installed enter the command "pip install module_name" in the command prompt 
+
+## Images
+
+<p align="center">
+  <img src="./Image/hierarchical_clustering.PNG" width="300"/>
+  <img src="./Image/dimensional_components.PNG" width="300"/> 
+  <img src="./Image/multi-outpout_tree_regression.PNG" width="300"/> 
+</p>
+
+<p align="center">
+  <img src="./Image/regression_prediction.PNG" width="800"/> 
+  <img src="./Image/Code.PNG" width="800"/> 
+</p>
