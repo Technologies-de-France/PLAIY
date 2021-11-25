@@ -22,12 +22,12 @@ https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe
 Caution, if you use LabVIEW 32 check Python32 installed, if you use LabVIEW 64 check Python64 installed.
 You can check on the windows command prompt (search then tape cmd and enter).
 
-<img src="./Image/cmd1.png" width="800"/>
+<img src="./Image/cmd1.png" width="400"/>
 
 Then verify if modules "scikit-learn", "scipy", "numpy", "pillow" and "sys" are installed. 
 To do this, enter the command "pip list" in the command prompt. 
 
-<img src="./Image/cmd2.png" width="800"/>
+<img src="./Image/cmd2.png" width="400"/>
 
 If one or more modules are not installed enter the command "pip install module_name" in the command prompt.
 
