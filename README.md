@@ -27,7 +27,7 @@ You can check on the windows command prompt (search then tape cmd and enter).
 Then verify if modules "scikit-learn", "scipy", "numpy", "pillow" and "sys" are installed. 
 To do this, enter the command "pip list" in the command prompt. 
 
-<img src="./Image/cmd2.png" width="400"/>
+<img src="./Image/cmd2.png" width="300"/>
 
 If one or more modules are not installed enter the command "pip install module_name" in the command prompt.
 
