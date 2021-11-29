@@ -9,6 +9,56 @@ TDF team is proud to propose for free the scikit-learn library adapted for LabVI
 It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and 
 DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy from the famous scikit-learn Python library. 
 
+This library is organized in 3 distinct parts : 
+
+<ul>
+1 - a set of data for users to play with
+</ul> 
+<ul>
+2 - a set of preprocessing functions which aim to work on the data before using them in a model (this is often necessary because the raw data cannot be exploited as it is)
+</ul>  
+<ul>
+3 - many machine learning models that we can train. These models are classified in several categories
+</ul>  
+<ul>
+  <ul>
+    3.1 - Supervised learning models (these are machine learning models that consist in learning a prediction function from annotated examples)
+  </ul>
+</ul>
+<ul>
+  <ul>
+    <ul>
+      3.1.1 - Regression models (these are models that must predict values)
+    </ul>
+  </ul>
+</ul>
+<ul>
+  <ul>
+    <ul>
+      3.1.2 - Classification models (models that classify elements)
+    </ul>
+  </ul>
+</ul>
+<ul>
+  <ul>
+    3.2 - Unsupervised learning models (unsupervised learning refers to the situation of automatic learning where the data are not labeled)
+  </ul>
+</ul>
+<ul>
+  <ul>
+    <ul>
+      3.2.1 - Clustering models (these are models that group data by similarity)
+    </ul>
+  </ul>
+</ul>
+<ul>
+  <ul>
+    <ul>
+      3.2.2 - Dimension reduction models (these are models that reduce the number of variables in the training data, in order to obtain more efficiency in terms of results and analysis time)
+    </ul>
+  </ul>
+</ul>
+
 ## Installation
 
 Library works with LabVIEW 2020 and Python 3.6.  <br />
