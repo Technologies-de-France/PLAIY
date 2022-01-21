@@ -5,7 +5,7 @@
 
 Let’s make Machine Learning easy with scikit-learn on LabVIEW.
 
-TDF team is proud to propose for free the scikit-learn library adapted for LabVIEW in open source.
+TDF team is proud to propose for free the scikit-learn library adapted for <b>LabVIEW </b>in open source.
 It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and 
 DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy from the famous scikit-learn Python library. 
 
@@ -61,7 +61,7 @@ This library is organized in 3 distinct parts :
 
 ## Installation
 
-Library works with LabVIEW 2020 and Python 3.6.  <br />
+Library works with  <b>LabVIEW 2020 </b> and Python 3.6.  <br />
 To install it download plaiy-1.0.0.6.vip file and execute it. It will install LabVIEW package, Python 3.6 (X64) and all the package needed to run. <br />
 
 If you want to use the sources you have to install Python 3.6 and all the packages.  <br />
